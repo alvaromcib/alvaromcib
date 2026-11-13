@@ -1,60 +1,61 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Álvaro Martín Coll · Físico · Ingeniero de IA para industria, energía y construcción" width="100%">
+  <img src="assets/banner.svg" alt="Álvaro Martín Coll · Physicist · AI engineer for industry, energy and construction" width="100%">
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/alvaromartincoll"><img src="https://img.shields.io/badge/LinkedIn-alvaromartincoll-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://www.malt.com/profile/alvaromartincoll"><img src="https://img.shields.io/badge/Malt-Freelance-FC5757?style=flat-square" alt="Malt"></a>
-  <img src="https://img.shields.io/badge/Idiomas-ES%20·%20EN-3987e5?style=flat-square" alt="Idiomas">
-  <img src="https://img.shields.io/badge/Remoto-desde%20España-199e70?style=flat-square" alt="Remoto">
+  <img src="https://img.shields.io/badge/Languages-ES%20·%20EN-3987e5?style=flat-square" alt="Languages">
+  <img src="https://img.shields.io/badge/Remote-from%20Spain-199e70?style=flat-square" alt="Remote">
 </p>
 
-### 👋 Hola, soy Álvaro
+### 👋 Hi, I'm Álvaro
 
-Físico (Universidad de Salamanca) y **Senior AI Engineer** con modelos en producción para industria y energía. Mi punto fuerte es la **modelización**: entiendo el proceso físico detrás de los datos y sé cuándo hace falta un modelo físico, uno de machine learning o una combinación de ambos.
+Physicist (University of Salamanca) and **Senior AI Engineer** with models in production for industry and energy. My strength is **modelling**: I understand the physical process behind the data and know when a problem needs a physical model, a machine learning one or a combination of both.
 
-- ⚙️ **Mantenimiento predictivo** y detección de anomalías en planta
-- ⚡ **Forecasting** de demanda, consumo y generación renovable
-- 👁️ **Visión artificial**: inspección industrial e imagen médica
-- 📚 **RAG y agentes con LLMs**, también 100 % en local
+- ⚙️ **Predictive maintenance** and anomaly detection on the plant floor
+- ⚡ **Forecasting** of demand, consumption and renewable generation
+- 👁️ **Computer vision**: industrial inspection and medical imaging
+- 📚 **RAG and LLM agents**, including fully local setups
 
-<sub>🇬🇧 Physicist & Senior AI Engineer shipping production ML for industry and energy: predictive maintenance, forecasting, computer vision and LLM/RAG systems.</sub>
+<sub>🇪🇸 Físico y Senior AI Engineer: mantenimiento predictivo, forecasting, visión artificial y sistemas RAG/LLM para industria, energía y construcción. Cada dashboard está también en español.</sub>
 
 ---
 
-### 🚀 Proyectos destacados
+### 🚀 Featured projects
 
-Cada proyecto incluye un **dashboard interactivo** con los resultados.
+Each project comes with an **interactive dashboard** of its results, in English and Spanish.
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://alvaromcib.github.io/ia-mantenimiento-predictivo/"><img src="https://raw.githubusercontent.com/alvaromcib/ia-mantenimiento-predictivo/main/docs/portfolio/cover.jpg" alt="Dashboard de mantenimiento predictivo"></a>
-<b><a href="https://github.com/alvaromcib/ia-mantenimiento-predictivo">Mantenimiento predictivo</a></b><br>
-Vida útil restante de motores a partir de sensores. <b>84 %</b> de fallos detectados a tiempo, <b>0</b> falsas alarmas.<br>
-<sub>LightGBM · series temporales · NASA C-MAPSS</sub>
+<a href="https://alvaromcib.github.io/ia-mantenimiento-predictivo/en/"><img src="https://raw.githubusercontent.com/alvaromcib/ia-mantenimiento-predictivo/main/docs/portfolio/cover.jpg" alt="Predictive maintenance dashboard"></a>
+<b><a href="https://github.com/alvaromcib/ia-mantenimiento-predictivo">Predictive maintenance</a></b><br>
+Remaining useful life of engines from sensor data. <b>84%</b> of failures caught in time, <b>0</b> false alarms.<br>
+<sub>LightGBM · time series · NASA C-MAPSS</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://alvaromcib.github.io/ia-fotovoltaica-fisica-ml/"><img src="https://raw.githubusercontent.com/alvaromcib/ia-fotovoltaica-fisica-ml/main/docs/portfolio/cover.jpg" alt="Dashboard de producción fotovoltaica"></a>
-<b><a href="https://github.com/alvaromcib/ia-fotovoltaica-fisica-ml">Fotovoltaica: física + IA</a></b><br>
-Modelo híbrido de producción (error <b>2,3 %</b>) y detección de inversores que pierden ≈ <b>30 k€/año</b>.<br>
-<sub>Modelo físico · LightGBM · detección de anomalías</sub>
+<a href="https://alvaromcib.github.io/ia-fotovoltaica-fisica-ml/en/"><img src="https://raw.githubusercontent.com/alvaromcib/ia-fotovoltaica-fisica-ml/main/docs/portfolio/cover.jpg" alt="Solar PV production dashboard"></a>
+<b><a href="https://github.com/alvaromcib/ia-fotovoltaica-fisica-ml">Solar PV: physics + AI</a></b><br>
+Hybrid production model (<b>2.3%</b> error) and detection of inverters losing ≈ <b>€30k/year</b>.<br>
+<sub>Physical model · LightGBM · anomaly detection</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://alvaromcib.github.io/vision-epis-obra/"><img src="https://raw.githubusercontent.com/alvaromcib/vision-epis-obra/main/docs/portfolio/cover.jpg" alt="Dashboard de detección de EPIs"></a>
-<b><a href="https://github.com/alvaromcib/vision-epis-obra">Visión artificial: EPIs en obra</a></b><br>
-Casco, chaleco y EPIs ausentes en tiempo real, en CPU (~<b>53 ms</b>/imagen), con <b>0</b> falsas alarmas «sin casco».<br>
-<sub>YOLO11 · detección de objetos · edge</sub>
+<a href="https://alvaromcib.github.io/vision-epis-obra/en/"><img src="https://raw.githubusercontent.com/alvaromcib/vision-epis-obra/main/docs/portfolio/cover.jpg" alt="PPE detection dashboard"></a>
+<b><a href="https://github.com/alvaromcib/vision-epis-obra">Computer vision: PPE on site</a></b><br>
+Helmets, vests and missing PPE in real time on CPU (~<b>53 ms</b>/image), with <b>0</b> "no helmet" false alarms.<br>
+<sub>YOLO11 · object detection · edge</sub>
 </td>
 <td width="50%" valign="top">
-<b><a href="https://github.com/alvaromcib/parasite-detection">Detección de parásitos en microscopía</a></b><br>
-Recuento automático de huevos de <i>Nematodirus</i> y <i>Strongyloides</i>: EDA, auditoría de etiquetas, recorte de campo de visión y experimentos con SAHI y DINOv2.<br>
-<sub>YOLO11 · SAHI · imagen biomédica</sub>
+<a href="https://alvaromcib.github.io/parasite-detection/en/"><img src="https://raw.githubusercontent.com/alvaromcib/parasite-detection/main/docs/portfolio/cover.jpg" alt="Parasite detection dashboard"></a>
+<b><a href="https://github.com/alvaromcib/parasite-detection">Parasite detection in microscopy</a></b><br>
+Automated <i>Nematodirus</i> and <i>Strongyloides</i> egg counting: EDA, label audit, field-of-view crop and experiments with SAHI and DINOv2. mAP@50 <b>0.980</b>.<br>
+<sub>YOLO11 · SAHI · biomedical imaging</sub>
 <br><br>
 <b><a href="https://github.com/alvaromcib/Med-RAG">Med-RAG</a></b><br>
-Asistente RAG para neurorradiología desplegable on-premise, con LLM local.<br>
+On-premise RAG assistant for neuroradiology, with a local LLM.<br>
 <sub>LlamaIndex · Qdrant · Ollama</sub>
 </td>
 </tr>
@@ -72,7 +73,7 @@ Asistente RAG para neurorradiología desplegable on-premise, con LLM local.<br>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow">
 <img src="https://img.shields.io/badge/C++%20·%20OpenNN-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++ OpenNN">
 
-**Visión**&nbsp;
+**Vision**&nbsp;
 <img src="https://img.shields.io/badge/YOLO-111F68?style=flat-square" alt="YOLO">
 <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
 <img src="https://img.shields.io/badge/MONAI-2E3440?style=flat-square" alt="MONAI">
@@ -83,7 +84,7 @@ Asistente RAG para neurorradiología desplegable on-premise, con LLM local.<br>
 <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square" alt="Qdrant">
 <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
 
-**Datos y despliegue**&nbsp;
+**Data and deployment**&nbsp;
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
@@ -92,14 +93,14 @@ Asistente RAG para neurorradiología desplegable on-premise, con LLM local.<br>
 
 ---
 
-### 🏭 En producción
+### 🏭 In production
 
-- **Forecasting de demanda eléctrica a gran escala** integrado con SCADA, desplegado en varias regiones con PostgreSQL particionado.
-- **Gemelo digital de un horno industrial**: miles de simulaciones en supercomputación y un metamodelo para optimizar consumo.
-- **Mantenimiento predictivo y control de calidad** en siderurgia y automoción.
-- **Visión por computador** en la librería OpenNN y el software Neural Designer.
+- **Large-scale electricity demand forecasting** integrated with SCADA, deployed across several regions with partitioned PostgreSQL.
+- **Digital twin of an industrial furnace**: thousands of supercomputer simulations and a metamodel to optimise energy use.
+- **Predictive maintenance and quality control** in steel and automotive.
+- **Computer vision** in the OpenNN library and the Neural Designer software.
 
-<sub>🎓 BSc Física (USAL) · MSc Data Science (UCM) · MSc Física Médica (UNED, en curso)</sub>
+<sub>🎓 BSc Physics (USAL) · MSc Data Science (UCM) · MSc Medical Physics (UNED, in progress)</sub>
 
-<p align="center"><b>¿Tienes datos de planta, sensores o documentación técnica y no sabes por dónde empezar?</b><br>
-<a href="https://www.malt.com/profile/alvaromartincoll">Hablemos en Malt</a> · <a href="https://www.linkedin.com/in/alvaromartincoll">LinkedIn</a></p>
+<p align="center"><b>Got plant data, sensors or technical documentation and not sure where to start?</b><br>
+<a href="https://www.malt.com/profile/alvaromartincoll">Let's talk on Malt</a> · <a href="https://www.linkedin.com/in/alvaromartincoll">LinkedIn</a></p>

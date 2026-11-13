@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Álvaro Martín Coll · Físico · Ingeniero de IA para industria, energía y construcción">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Álvaro Martín Coll · Physicist · AI engineer for industry, energy and construction">
   <defs>
     <radialGradient id="glow" cx="85%" cy="20%" r="60%">
       <stop offset="0" stop-color="#3987e5" stop-opacity=".35"/>
@@ -29,8 +29,8 @@
     <path class="trace a d" stroke="#d95926" d="M1010 70 h70 v52 h-70 z" stroke-dasharray="4 4"/>
   </g>
   <rect width="1200" height="300" rx="18" fill="url(#fade)"/>
-  <text class="t" x="64" y="92" fill="#3987e5" font-size="15" font-weight="600" letter-spacing="2.4">FÍSICO · AI ENGINEER</text>
+  <text class="t" x="64" y="92" fill="#3987e5" font-size="15" font-weight="600" letter-spacing="2.4">PHYSICIST · AI ENGINEER</text>
   <text class="t" x="62" y="150" fill="#f0efec" font-size="50" font-weight="700" letter-spacing="-1">Álvaro Martín Coll</text>
-  <text class="t" x="64" y="194" fill="#c3c2b7" font-size="21">IA aplicada a industria, energía y construcción</text>
-  <text class="t" x="64" y="226" fill="#898781" font-size="16">Mantenimiento predictivo · Forecasting · Visión artificial · RAG y agentes LLM</text>
+  <text class="t" x="64" y="194" fill="#c3c2b7" font-size="21">Applied AI for industry, energy and construction</text>
+  <text class="t" x="64" y="226" fill="#898781" font-size="16">Predictive maintenance · Forecasting · Computer vision · RAG and LLM agents</text>
 </svg>
