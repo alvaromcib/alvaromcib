@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Álvaro Martín Coll · Físico · Ingeniero de IA para industria, energía y construcción">
+  <defs>
+    <radialGradient id="glow" cx="85%" cy="20%" r="60%">
+      <stop offset="0" stop-color="#3987e5" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#3987e5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#0d0d0d" stop-opacity="1"/>
+      <stop offset=".45" stop-color="#0d0d0d" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#0d0d0d" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .t { font-family: Inter, "Segoe UI", system-ui, -apple-system, sans-serif; }
+      .trace { fill: none; stroke-width: 1.6; stroke-linecap: round; }
+      .a { stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: draw 6s ease-out forwards, drift 14s 6s ease-in-out infinite alternate; }
+      .b { animation-delay: .4s, 6.4s; } .c { animation-delay: .8s, 6.8s; } .d { animation-delay: 1.2s, 7.2s; }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @keyframes drift { from { transform: translateY(0); } to { transform: translateY(-6px); } }
+      @media (prefers-reduced-motion: reduce) { .a { animation: none; stroke-dashoffset: 0; } }
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="#0d0d0d"/>
+  <rect width="1200" height="300" rx="18" fill="url(#glow)"/>
+  <!-- signals: degradation trend, PV daily curve, forecast, detection box -->
+  <g opacity=".9">
+    <path class="trace a" stroke="#3987e5" d="M520 120 C 600 118, 680 126, 760 122 S 900 130, 960 150 S 1080 210, 1160 250"/>
+    <path class="trace a b" stroke="#c98500" d="M560 260 C 640 260, 680 120, 760 95 S 880 250, 960 262"/>
+    <path class="trace a c" stroke="#199e70" d="M600 200 C 660 190, 700 210, 760 196 S 860 170, 920 186 S 1040 160, 1160 170"/>
+    <path class="trace a d" stroke="#d95926" d="M1010 70 h70 v52 h-70 z" stroke-dasharray="4 4"/>
+  </g>
+  <rect width="1200" height="300" rx="18" fill="url(#fade)"/>
+  <text class="t" x="64" y="92" fill="#3987e5" font-size="15" font-weight="600" letter-spacing="2.4">FÍSICO · AI ENGINEER</text>
+  <text class="t" x="62" y="150" fill="#f0efec" font-size="50" font-weight="700" letter-spacing="-1">Álvaro Martín Coll</text>
+  <text class="t" x="64" y="194" fill="#c3c2b7" font-size="21">IA aplicada a industria, energía y construcción</text>
+  <text class="t" x="64" y="226" fill="#898781" font-size="16">Mantenimiento predictivo · Forecasting · Visión artificial · RAG y agentes LLM</text>
+</svg>
