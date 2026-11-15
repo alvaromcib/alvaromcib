@@ -11,7 +11,7 @@
 
 ### 👋 Hi, I'm Álvaro
 
-Physicist (University of Salamanca) and **Senior AI Engineer** with models in production for industry and energy. My strength is **modelling**: I understand the physical process behind the data and know when a problem needs a physical model, a machine learning one or a combination of both.
+Physicist and **Senior AI Engineer** with models in production for industry and energy. My strength is **modelling**: I understand the physical process behind the data and know when a problem needs a physical model, a machine learning one or a combination of both.
 
 - ⚙️ **Predictive maintenance** and anomaly detection on the plant floor
 - ⚡ **Forecasting** of demand, consumption and renewable generation
