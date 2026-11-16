@@ -29,10 +29,24 @@ Each project comes with an **interactive dashboard** of its results, in English 
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="https://alvaromcib.github.io/agentes-ia-industria/en/"><img src="https://raw.githubusercontent.com/alvaromcib/agentes-ia-industria/main/docs/portfolio/cover.jpg" alt="AI agents dashboard"></a>
+<b><a href="https://github.com/alvaromcib/agentes-ia-industria">Local AI agents with real models as tools</a></b><br>
+Four LangGraph agents (maintenance, solar plant, tender review, steel quality) whose tools are the models below. Every run checked against ground truth; tender review went from <b>1/6</b> to <b>3/6</b> by moving the comparison into code.<br>
+<sub>LangGraph · Ollama · tool calling</sub>
+</td>
+<td width="50%" valign="top">
 <a href="https://alvaromcib.github.io/ia-mantenimiento-predictivo/en/"><img src="https://raw.githubusercontent.com/alvaromcib/ia-mantenimiento-predictivo/main/docs/portfolio/cover.jpg" alt="Predictive maintenance dashboard"></a>
 <b><a href="https://github.com/alvaromcib/ia-mantenimiento-predictivo">Predictive maintenance</a></b><br>
 Remaining useful life of engines from sensor data. <b>84%</b> of failures caught in time, <b>0</b> false alarms.<br>
 <sub>LightGBM · time series · NASA C-MAPSS</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://alvaromcib.github.io/inspeccion-defectos-cascada/en/"><img src="https://raw.githubusercontent.com/alvaromcib/inspeccion-defectos-cascada/main/docs/portfolio/cover.jpg" alt="Steel strip inspection dashboard"></a>
+<b><a href="https://github.com/alvaromcib/inspeccion-defectos-cascada">Steel strip inspection</a></b><br>
+Defect detector and per-section accept / review / reject report. <b>95.7%</b> defect-class accuracy at <b>24 ms</b>/frame on CPU; a VLM second stage was tested and discarded.<br>
+<sub>YOLO · NEU-DET · quality rules</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://alvaromcib.github.io/ia-fotovoltaica-fisica-ml/en/"><img src="https://raw.githubusercontent.com/alvaromcib/ia-fotovoltaica-fisica-ml/main/docs/portfolio/cover.jpg" alt="Solar PV production dashboard"></a>
@@ -51,12 +65,22 @@ Helmets, vests and missing PPE in real time on CPU (~<b>53 ms</b>/image), with <
 <td width="50%" valign="top">
 <a href="https://alvaromcib.github.io/parasite-detection/en/"><img src="https://raw.githubusercontent.com/alvaromcib/parasite-detection/main/docs/portfolio/cover.jpg" alt="Parasite detection dashboard"></a>
 <b><a href="https://github.com/alvaromcib/parasite-detection">Parasite detection in microscopy</a></b><br>
-Automated <i>Nematodirus</i> and <i>Strongyloides</i> egg counting: EDA, label audit, field-of-view crop and experiments with SAHI and DINOv2. mAP@50 <b>0.980</b>.<br>
+Automated <i>Nematodirus</i> and <i>Strongyloides</i> egg counting with label audit and SAHI / DINOv2 experiments. mAP@50 <b>0.980</b>.<br>
 <sub>YOLO11 · SAHI · biomedical imaging</sub>
-<br><br>
-<b><a href="https://github.com/alvaromcib/Med-RAG">Med-RAG</a></b><br>
-On-premise RAG assistant for neuroradiology, with a local LLM.<br>
-<sub>LlamaIndex · Qdrant · Ollama</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://alvaromcib.github.io/rag-normativa-cte/en/"><img src="https://raw.githubusercontent.com/alvaromcib/rag-normativa-cte/main/docs/portfolio/cover.jpg" alt="Building code RAG dashboard"></a>
+<b><a href="https://github.com/alvaromcib/rag-normativa-cte">Local assistant for Spanish building codes</a></b><br>
+Answers about CTE and low-voltage regulations with document, section and page. <b>21/30</b> correct and cited; <b>3/3</b> out-of-scope questions answered "not found".<br>
+<sub>Hybrid search · bge-m3 · Ollama</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://alvaromcib.github.io/Med-RAG/en/"><img src="https://raw.githubusercontent.com/alvaromcib/Med-RAG/main/docs/portfolio/cover.jpg" alt="Med-RAG dashboard"></a>
+<b><a href="https://github.com/alvaromcib/Med-RAG">Med-RAG: local assistant for neuroradiology guidelines</a></b><br>
+Answers from WHO, ESMO, EANO and ACR guidelines with the page it comes from, fully on-premise. <b>15/15</b> test questions correct and cited; <b>3/3</b> out-of-scope questions answered "I don't know".<br>
+<sub>LlamaIndex · hybrid Qdrant · Ollama</sub>
 </td>
 </tr>
 </table>
